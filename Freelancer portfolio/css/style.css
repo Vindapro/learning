@@ -1,0 +1,59 @@
+@import"./reset.css";
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,700&family=Poppins:wght@400;700&display=swap');
+
+body {
+    font-family: 'DM Sans', sans-serif;
+}
+
+.container {
+    width: 1170px;
+
+    margin: 0 auto;
+    
+}
+
+/* -------------- Навигация ----------------------- */
+
+.nav { 
+    background: #171718;
+    padding: 20px;  
+    border-bottom: #26292D;
+} 
+
+.nav-row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-list{
+    display: flex; 
+    align-items: center;
+    column-gap: 30px;
+
+    color: white;
+}
+
+.nav-list__link{
+    color: azure;
+    transition: color 1s ease-in; /* Делает плавность */
+
+} 
+.nav-list__link:hover{
+    color:red;
+}
+
+.logo {
+    color: white;
+    font-family: Poppins;
+}
+
+/* -------------- Навигация ----------------------- */
+
+
+    
+
+
+
+
+    
